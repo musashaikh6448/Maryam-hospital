@@ -104,7 +104,7 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) =>
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <Stethoscope className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-heading font-bold text-lg">Maryam</span>
+            <span className="font-heading font-bold text-lg">MediCare</span>
           </div>
           <Link to="/notifications" className="p-2 rounded-lg hover:bg-muted relative">
             <Bell className="w-6 h-6" />
@@ -135,14 +135,11 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) =>
           {/* Logo */}
           <div className="flex items-center justify-between px-6 py-5 border-b border-sidebar-border">
             <Link to="/dashboard" className="flex items-center gap-3">
-             <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center">
-            <img
-              src="/maryam-logo.png"
-              alt="Logo"
-            />
-          </div>
+              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shadow-glow">
+                <Stethoscope className="w-6 h-6 text-primary-foreground" />
+              </div>
               <div>
-                <span className="font-heading font-bold text-xl text-sidebar-foreground">Maryam</span>
+                <span className="font-heading font-bold text-xl text-sidebar-foreground">MediCare</span>
                 <p className="text-xs text-muted-foreground">Hospital Management</p>
               </div>
             </Link>
